@@ -1,0 +1,424 @@
+body {
+    flex-wrap: wrap;
+    background-color: #e3e4e5;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    background-color: #5d5555;
+    padding: 10px;
+  }
+  
+  .caja{
+    width: 990px;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .logo{
+    width: 200px;
+    height: auto;
+    border-radius: 90%;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:50%;
+    right: 0;
+    transform: translateY(-50%);
+    align-items: baseline;
+  }
+  nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+  }
+  
+  nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .print-button{
+    background-color: #5d5555;
+    border: 2px solid #000000;
+    padding: 8px 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+  }
+  
+  .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #702424;
+      border: 1px solid #cccccc;
+    }
+    
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #ffffff;
+      border-radius: 5px;
+    }
+    
+    .button:hover {
+      background-color: #0056b3;
+    }
+  
+    .principal{
+      padding: 3m 0;
+      background: #562dbb;
+      width: 940 px;
+      margin: 0 auto;
+    }
+  
+    .titulo-principal{
+      background: #f71010;
+      text-align: center;
+      font-family: "Shrikhand";
+      font-style: italic;
+      font-weight: bold;
+      font-size: 6em;
+      margin: 0 0 0;
+      clear: left;
+      padding: 10px 0;
+    }
+  
+    .contenidos{
+      display: flex;
+      padding: 0 10px;
+    }
+  
+    .barra-lateral{
+      flex-basis: 25%;
+      background-color: #b0aeae;
+      padding: 20px;
+    }
+  
+    .presentacion{
+      text-decoration: underline;
+    }
+  
+    .perfil{
+      display: block;
+      width: 200px;
+      height: auto;
+      border-radius: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .edicion-anterior{
+        text-align: center;
+        text-indent: 0;
+    }
+
+    .boton-ed-anterior {
+        background-color: #5d5555;
+        color: black;
+        border: 2px solid #000000;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    
+  
+    .columna-central{
+      flex: 1;
+      background-color: #e3e4e5;
+      padding: 20px;
+    }
+  
+    .foto-nota{
+      display: block;
+      width: 370px;
+      height: auto;
+      border-radius: 5%;
+      margin: 20px auto 20px auto;
+    }
+
+    .guarda-decorativa{
+      display: block;
+      width: 370px;
+      height: 10px;
+      background-color: #e3e4e5;
+      margin: 20px auto 20px auto;
+    }
+  
+    .titulos-secundarios{
+      text-decoration: underline;
+    }
+  
+    .columna-uno, .columna-dos{
+      width: 45%;
+      display: inline-block;
+      padding: 20px;
+    }
+  
+    h3, h4{
+      text-align: center;
+    }
+  
+    .desarrollo-nota{
+      text-align: justify;
+    }
+  
+    .nota-portada{
+      font-size: 1.5em;
+      text-decoration: underline;
+      margin-top: 18px;
+    }
+  
+    .agregados{
+      border-radius: 5%;
+      border: 2px solid black;
+      padding: 10px;
+    }
+  
+    p {
+      text-indent: 20px;
+      color: #000000;
+      margin-bottom: 1em;
+    }
+  
+    .firma{
+      text-indent: 0;
+      margin: 0 0;
+    }
+  
+    p strong{
+      font-weight: bold;
+    }
+
+    p span{
+        text-decoration: underline;
+    }
+  
+    .columna-unica{
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px;
+    }
+  
+    .cuadro-cop{
+      display: block;
+      width: 90%;
+      height: auto;
+      border-radius: 5%;
+      margin: 40px auto 40px auto;
+      border: 1px solid black;
+      padding: 10px;
+    }
+  
+  form{
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .caja-suscriptores{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  form label, form legend{
+      display: block;
+      font-size: 20px;
+      margin: 0 0 10px;
+      align-items: center;
+  }
+  
+  .input-padron{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+      padding: 10px 25px;
+      width: 50%;
+  }
+  
+  .checkbox{
+      margin:20px 0;
+  }
+  
+  .enviar{
+      width: 40%;
+      padding: 15px 0;
+      font-size: 18px;
+      font-weight: bold;
+      color:white;
+      background: orange;
+      border:none;
+      border-radius: 5px;
+      transition: 1s all;
+      cursor:pointer;
+  }
+  
+  .enviar:hover{
+      background: darkorange;
+      transform: scale(1.2);
+  }
+    footer{
+      text-align: center;
+      background-color: #5d5555;
+      padding: 20px;
+    }
+  
+    img.footer{
+      width: 100px;
+      height: auto;
+      border-radius: 90%;
+    }
+  
+    .copyright{
+      color: #000000;
+      font-size: 13px;
+      margin: 10px;
+    }
+  
+    @media print{
+      .print-button{
+        display:none
+      }
+  
+      *{
+        margin: 10px 10px 10px 10px;
+      }
+  
+      .logo{
+        width: 100px;
+      }
+      .titulo-principal{
+        font-size: 3em;
+        padding: 0 0;
+      }
+  
+      .contenidos{
+        flex-wrap: wrap;
+      }
+  
+      .barra-lateral{
+        flex: 1;
+        padding: 0 20px;
+      }
+
+      .datos-edicion{
+        margin-top: 20px;
+      }
+
+      .presentacion{
+        margin-top: 30px;
+      }
+
+      .perfil{
+        width: 120px;
+        margin-top: 30px;
+      }
+
+      .desarrollo-nota{
+        margin-top: 20px;
+      }
+
+      .edicion-anterior{
+        margin-top: 40px;
+      }
+  
+      .columna-central{
+        padding: 0 20px;
+      }
+    
+      .nota-portada{
+        margin-top: 140px;
+      }
+  
+      .agregados{
+        padding: 0 10px;
+      }
+  
+      p{
+        margin: 0 0;
+      }
+  
+      .columna-uno, .columna-dos{
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+      }
+  
+      .columna-dos{
+        margin-top: 0;
+      }
+      
+      form{
+        margin: 20px 0;
+      }
+  
+      footer{
+        padding: 0 0;
+      }
+  
+      img.footer{
+        display: none;
+      }
+    }
+  
+    @media screen and (max-width:680px) {
+      .logo{
+        width: 150px;
+      }
+      nav{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 40%;
+      }
+  
+      nav li{
+        display: block;
+        margin: 0 0 0 0;
+        text-align: center;
+      }
+      nav a{
+        flex-direction: column;
+      }
+      .titulo-principal{
+        font-size: 4em;
+      }
+  
+      .contenidos{
+        flex-wrap: wrap;
+      }
+  
+      .barra-lateral{
+        flex: 1;
+      }
+  
+      .columna-uno, .columna-dos{
+        display: block;
+        width: 100%;
+      }
+    }
