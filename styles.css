@@ -165,7 +165,7 @@ body {
     .guarda-decorativa{
       display: block;
       width: 370px;
-      height: 10px;
+      height: 5px;
       background-color: #e3e4e5;
       margin: 20px auto 20px auto;
     }
@@ -349,11 +349,11 @@ body {
       }
   
       .columna-central{
-        padding: 0 20px;
+        padding: 0 10px;
       }
     
       .nota-portada{
-        margin-top: 130px;
+        margin-top: 120px;
       }
   
       .agregados{
